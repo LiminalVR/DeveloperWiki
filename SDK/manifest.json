@@ -1,0 +1,1739 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Dan/Developer/PlatformSDK/Liminal.SDK/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.Core.Fader.CompoundScreenFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.Core.Fader.CompoundScreenFader.html",
+          "hash": "Q/cJtUtr1HD7ZTkNd2EW9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.Core.Fader.IScreenFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.Core.Fader.IScreenFader.html",
+          "hash": "qOnQE/hGxqHXfHkP2MAGuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.Core.Fader.ImageScreenFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.Core.Fader.ImageScreenFader.html",
+          "hash": "+oTJ5VxX/SFlJ8pJbTZm4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.Core.Fader.PostEffectScreenFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.Core.Fader.PostEffectScreenFader.html",
+          "hash": "gZ17AbwjIzfG6nuARdNRIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.Core.Fader.ScreenFader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.Core.Fader.ScreenFader.html",
+          "hash": "1KrwmpFaipUj3QrlFTp6dw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.Core.Fader.ScreenFaderBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.Core.Fader.ScreenFaderBase.html",
+          "hash": "VvddB7/KZsSEYxL5CAC6SA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.Core.Fader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.Core.Fader.html",
+          "hash": "ROmYt6Q9f/w/Pw1XV0FhXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Collections.ListPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Collections.ListPool-1.html",
+          "hash": "pj0zpU8UEpp4ILqHKUbipg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Collections.PooledList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Collections.PooledList-1.html",
+          "hash": "P23l0cAmcp4cwjdFQpwKng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Collections.html",
+          "hash": "AU59qY8JBFvZXzF27eljQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Core.ExperienceApp.FadeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Core.ExperienceApp.FadeSettings.html",
+          "hash": "PUE6NL+yiXKtStkqyQethQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Core.ExperienceApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Core.ExperienceApp.html",
+          "hash": "rijTOe6nLQLmUYO2zpZHKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Core.html",
+          "hash": "/TSPAGn9eE5hMgw4AKq+8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Extensions.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Extensions.GameObjectExtensions.html",
+          "hash": "SoXgyRkciLoksgXArhaWSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Extensions.ReflectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Extensions.ReflectionExtensions.html",
+          "hash": "JceB6K3FbEfrt1qWFPyu5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Extensions.TransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Extensions.TransformExtensions.html",
+          "hash": "FLKiaX16/BaxWrWyt5nGlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Extensions.Vector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Extensions.Vector3Extensions.html",
+          "hash": "7cqIRFFxHpU0pCWYCTPG/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Extensions.html",
+          "hash": "fslu8mXxOM3/TDOFAgvmCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Input.VRInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Input.VRInput.html",
+          "hash": "yRcbpmKdkvMjfQLNg8CfDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Input.html",
+          "hash": "GWJ3RkCdYc9DsnaQnBGl3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.AppPack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.AppPack.html",
+          "hash": "morUgiY8lkpCnDqOMFDwZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.AppPackPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.AppPackPlatform.html",
+          "hash": "dVM/4oIJBTXWvyAfLCa/ag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.AppUnpacker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.AppUnpacker.html",
+          "hash": "1uB+zhaHC9UW707LIG0ADw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.AssemblyDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.AssemblyDataProvider.html",
+          "hash": "5I2FPtzJEqkeL4krVzzOow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.AssetLookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.AssetLookup.html",
+          "hash": "928gUoylX+qJ0DPV4WkhZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.ComponentData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.ComponentData.html",
+          "hash": "daPxTC+dmHgzIlvOOCWo9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.FieldData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.FieldData.html",
+          "hash": "uEfOPeroBRhcLlJ+5elv9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.GameObjectData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.GameObjectData.html",
+          "hash": "Bvn190DhqU5YRs86wcd3XA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.IAssemblyDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.IAssemblyDataProvider.html",
+          "hash": "lVx/USz2x2FVFJJMpZs6pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.PrefabGameObjectData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.PrefabGameObjectData.html",
+          "hash": "Xotg69Eyn5oen1wIgPYX0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.ScriptableObjectData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.ScriptableObjectData.html",
+          "hash": "MpV2hxJ6l23HOb9Pk8lvLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.SerializationUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.SerializationUtils.html",
+          "hash": "0TDQspGnRHYeUPh3E5HeRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.SerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.SerializedData.html",
+          "hash": "xMSHIwYqcSE3QBTQuy52CQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.UnityJsonContractResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.UnityJsonContractResolver.html",
+          "hash": "1PPrgn+Dc6qE+Unfth1S/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.Serialization.html",
+          "hash": "XjVeDFZLVP3dP5iq6EkzXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.ActiveCameraChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.ActiveCameraChangedEventHandler.html",
+          "hash": "1FeHXtqBmcMDIcqKylH4cQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.IVRControllerVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.IVRControllerVisual.html",
+          "hash": "0IxBLu2H+amvR9m89EMvqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerInputVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerInputVisual.html",
+          "hash": "rKkdnR82RzOtKI7Dw0r+fw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerInputVisualExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerInputVisualExtensions.html",
+          "hash": "gOb5lkcf9OyZw5ALXbcmng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerNode.html",
+          "hash": "ynTz97dR0BKFD6VrBJByvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerTip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerTip.html",
+          "hash": "bTH1afs7k9BAT2e7QcnlAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerTipAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerTipAlignment.html",
+          "hash": "3aMg7ZmBRM+DtaPyCkfPhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerTipPrefabs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerTipPrefabs.html",
+          "hash": "HqcV7VCApBPkYx+aCqdMFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerVisual.html",
+          "hash": "dWH2Jsd/EFz5eCMpl4JY1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerVisualExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.VRControllerVisualExtensions.html",
+          "hash": "nXXQkSwQVb73mnncExCDuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Controllers.html",
+          "hash": "CTNY7C1XVDLmAxiJJiRgUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Events.IAnchorableAnchored.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Events.IAnchorableAnchored.html",
+          "hash": "VfPrE5C1SZRJeHgJO6OYyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Events.IAnchorableUnanchored.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Events.IAnchorableUnanchored.html",
+          "hash": "CHR2HoNmRthHtgtuEcsSDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Events.html",
+          "hash": "k5BRfwafkbLbh3FoonAoDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.GazeInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.GazeInput.html",
+          "hash": "3uVOXtvcPYNK128F605sJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.GazeInputActivationPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.GazeInputActivationPolicy.html",
+          "hash": "aiZaaL8p8UMHbEJLEZxucQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.IVRAvatarExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.IVRAvatarExtension.html",
+          "hash": "cNq2EgBkWatw2+RoRdRq6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Extensions.html",
+          "hash": "IyGq+27eVlDFfyEg32Du9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatar.html",
+          "hash": "apzDpqUYdFxpxzubsXu8Tw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarHand.html",
+          "hash": "fBrTrQ5a41MaB2mqTXDQcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarHead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarHead.html",
+          "hash": "bpLxvAfQhU9AhxdgOrt91w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarLimb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarLimb.html",
+          "hash": "8AJAZV/KeQ3BYYMrirhBNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.IVRAvatarSettings.html",
+          "hash": "Yl4TwU3q/ezFtiR1Bep9Nw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.IVRDeviceAvatar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.IVRDeviceAvatar.html",
+          "hash": "9M52VSX0nXWNVaB0Qs7RJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.IVRTrackedObjectProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.IVRTrackedObjectProxy.html",
+          "hash": "6fl37Dz0yEDIOLENnKIpHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.ActivatePointerOnAnchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.ActivatePointerOnAnchor.html",
+          "hash": "uDnf1A42mZHcgH+ntRpIow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.AnchorAttachFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.AnchorAttachFlags.html",
+          "hash": "oMe+nVkVr4pYHJtcrUTZoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.Anchorable.AnchorableEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.Anchorable.AnchorableEvents.html",
+          "hash": "Mqqu4/GpmR1Eutx9s5NU2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.Anchorable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.Anchorable.html",
+          "hash": "JZkAoLj56JUsu6AoihpXIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.AnchorableEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.AnchorableEvent.html",
+          "hash": "S2m6CKITo3MhvtG+04+7kQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.AttachOnClick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.AttachOnClick.html",
+          "hash": "MVOV9Io79bh5Q8/hv65NQQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.IAnchorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.IAnchorHandler.html",
+          "hash": "7/xDm4/8f/kdsRHZqBiBvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.SmoothAnchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.SmoothAnchor.html",
+          "hash": "JCAi19LDAPBALNw5GuH6Dw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.Interaction.html",
+          "hash": "BMuu/U0DUUw5enyW4wxczg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatar.html",
+          "hash": "zVN5gjpT3iR4c+DnOLHKlQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarController.html",
+          "hash": "26L4wEwCLCZzdYHSyE9yVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarEventHandler.html",
+          "hash": "XklNdOWq7eLI9jxaV49zUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarExtensions.html",
+          "hash": "1v6TG/LGOeDY/SAXRY9PBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarHand.html",
+          "hash": "eL/QVvMSo1YprYr1+er1eQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarHead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarHead.html",
+          "hash": "6BePp64sMhUFF1WTTcCJcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarHelper.html",
+          "hash": "HA0pjrayFzUqDzw9q1sHgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimb.LimbEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimb.LimbEvents.html",
+          "hash": "ZvBSBDAqYhSqzI9W5oxlrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimb.TrackedObjectSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimb.TrackedObjectSettings.html",
+          "hash": "E0eR8VAVA1KJ3YF02v2L4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimb.html",
+          "hash": "NmIe7fn2wN3/g7KbJt1k4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimbAlias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimbAlias.html",
+          "hash": "uKTyuynJpkci2FCe8NEWbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimbType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRAvatarLimbType.html",
+          "hash": "LdDNA2bojy8qBtFGVXtnew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.VRLimbAttachmentEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.VRLimbAttachmentEvent.html",
+          "hash": "24wG0FYRwGhCq1544YyLcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Avatars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Avatars.html",
+          "hash": "wBE+Edn5oWYLcanGE/IPJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.EventSystems.VRPhysicsRaycaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.EventSystems.VRPhysicsRaycaster.html",
+          "hash": "5SggAjkE1YaU85j4xKIPZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.EventSystems.VRPointerEventData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.EventSystems.VRPointerEventData.html",
+          "hash": "q8qDebgI1JlBPLqY59d9Ig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.EventSystems.VRPointerInputModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.EventSystems.VRPointerInputModule.html",
+          "hash": "sUZZSw4+8EGjUKtzAEEy2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.EventSystems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.EventSystems.html",
+          "hash": "aQ06+xqjk57nfpjcUXoepA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.IVRDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.IVRDevice.html",
+          "hash": "agmbZS6S9sTlKaoVOu9gFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.IVRDeviceComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.IVRDeviceComponent.html",
+          "hash": "u3GTg1P5JbvP+kkxy17ZPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.IVRDeviceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.IVRDeviceExtensions.html",
+          "hash": "h3z/nPUyG6nDYWUNocIWBg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.IVRDeviceInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.IVRDeviceInitializer.html",
+          "hash": "9cASNjmXe4uifgzHAJhG7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.IVRHeadset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.IVRHeadset.html",
+          "hash": "53JlE7IaeReSXHjbQP+U0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Input.IVRInputDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Input.IVRInputDevice.html",
+          "hash": "XjNIFJNK+6B1keVAKhWOlQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Input.VRAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Input.VRAxis.html",
+          "hash": "J6uFO2mJxVL5EKbwB/E/mA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Input.VRButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Input.VRButton.html",
+          "hash": "/DPfYRgvDeiyzs/nSlft2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Input.VRInputDeviceHand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Input.VRInputDeviceHand.html",
+          "hash": "jEQFndF/hohy88MtrjpEhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Input.html",
+          "hash": "Od43AjNIToQYTdoP+JfrIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.BasePointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.BasePointer.html",
+          "hash": "N4+fILJaLoS2UaG1Qsn7Jw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.BasePointerVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.BasePointerVisual.html",
+          "hash": "RR6Tk5tcqqVeOWxYVXye9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.BaseReticleVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.BaseReticleVisual.html",
+          "hash": "AQOPJKFa8wjbz0GIk5iVgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.GazePointerTimerVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.GazePointerTimerVisual.html",
+          "hash": "QF7IWnJ6SDecnGDS+oomkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.GazePointerVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.GazePointerVisual.html",
+          "hash": "KLyvsPB5m53pfRTuvQER2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.IVRPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.IVRPointer.html",
+          "hash": "mIANCjgT7mKFeRTnGCiVZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.IVRPointerVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.IVRPointerVisual.html",
+          "hash": "kOrgqiZ5f9O30Un2FgWU3A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.IVRReticleVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.IVRReticleVisual.html",
+          "hash": "g+8gkeqCjkXfX+BA/a/m7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.InputDevicePointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.InputDevicePointer.html",
+          "hash": "PSyG1scbRj6RTGe0FaSn8Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.LaserPointerVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.LaserPointerVisual.html",
+          "hash": "Gx9EMYw3FgHy67x3hN0IzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.PointerActiveStateChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.PointerActiveStateChanged.html",
+          "hash": "Zm1CX0+f6yuEqwgqJCw27g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.ReticleVisual.FaceCameraSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.ReticleVisual.FaceCameraSettings.html",
+          "hash": "bjefCZkV2XqfvpMnLK2/Pw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.ReticleVisual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.ReticleVisual.html",
+          "hash": "lyiSaJvIdurtBD9Si5rfjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.TimedGazePointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.TimedGazePointer.html",
+          "hash": "R2wMDQuWhMYKmd5tupkwkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.Pointers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.Pointers.html",
+          "hash": "107RBT/hCss1lvQvYihj3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.SimpleHeadset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.SimpleHeadset.html",
+          "hash": "rOtBTzQr2ldlW27jMOhkTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.UI.VRGraphicRaycaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.UI.VRGraphicRaycaster.html",
+          "hash": "xu8Yo0QDgiy5rdYmoR8/4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.UI.html",
+          "hash": "pC5sIGGGMBsnClG1HkxclQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.VRDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.VRDevice.html",
+          "hash": "/GuI0LHN+ngmUwNtc563QQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.VRDeviceCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.VRDeviceCapability.html",
+          "hash": "STFY8m1VbmPec9r7lZ8yPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.VRDeviceEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.VRDeviceEventHandler.html",
+          "hash": "sWHcDhd1GXgRQ80Lu5dDGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.VRDeviceMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.VRDeviceMonitor.html",
+          "hash": "2h2GjTPYgTAvvPijs+8yRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.VRHeadsetCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.VRHeadsetCapability.html",
+          "hash": "KuOGz0Er6UnZk1Os2Kj2gg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.VRInputDeviceCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.VRInputDeviceCapability.html",
+          "hash": "CKYQuH59ci+GzdcNCX/QLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.VRInputDeviceEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.VRInputDeviceEventHandler.html",
+          "hash": "sky2t4lbx3VArjQc2cIOpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Liminal.SDK.VR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Liminal.SDK.VR.html",
+          "hash": "Av5FhZINpisonMUFMaprWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.CoderPropID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.CoderPropID.html",
+          "hash": "D88Z2dFgyZnp46zdUJPlpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZ.BinTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZ.BinTree.html",
+          "hash": "4jHgmBNlkEvWAycq2Qv53Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZ.InWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZ.InWindow.html",
+          "hash": "FiqPbFVWfZJGHDrTurCf3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZ.OutWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZ.OutWindow.html",
+          "hash": "frrSlhC5ODGZAeRNBLhzsA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZ.html",
+          "hash": "LtOU1zhj1NtZRX2Mg76IJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZMA.Decoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZMA.Decoder.html",
+          "hash": "dBq1Sqjh7M8s0gjjO8rZjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZMA.Encoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZMA.Encoder.html",
+          "hash": "pGPeD+P7tfOdSEVOeqPllQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZMA.SevenZipHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZMA.SevenZipHelper.html",
+          "hash": "D9j9N7VeIo0tiQiBI3xO0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.Compression.LZMA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.Compression.LZMA.html",
+          "hash": "LnPkX+XzcvNP4pYe3zsQtg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.ICodeProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.ICodeProgress.html",
+          "hash": "dRRmbeuq6CRuX/JM25Wb2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.ICoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.ICoder.html",
+          "hash": "ClMi82louEmNBBP22qxPcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.ISetCoderProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.ISetCoderProperties.html",
+          "hash": "ZBD/iOFhJC5oSMnBgMxNyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.ISetDecoderProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.ISetDecoderProperties.html",
+          "hash": "3xyW6R2TcxStGcFhO+91yA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.IWriteCoderProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.IWriteCoderProperties.html",
+          "hash": "Ejfm3Jb6bSQ6YtkvFbNx+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SevenZip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SevenZip.html",
+          "hash": "DuDUm7svFG5HnRHwOJjD8A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "2AnjDJ5hhwcKdPtCGoLnsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "G2fSkaWNH5InNIavG32Zfw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "wDlkeJjmg8P7OCqr+YUyYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

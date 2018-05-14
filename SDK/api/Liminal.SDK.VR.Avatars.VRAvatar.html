@@ -1,0 +1,1496 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class VRAvatar
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class VRAvatar
+   ">
+    <meta name="generator" content="docfx 2.36.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Liminal.SDK.VR.Avatars.VRAvatar">
+  
+  
+  <h1 id="Liminal_SDK_VR_Avatars_VRAvatar" data-uid="Liminal.SDK.VR.Avatars.VRAvatar" class="text-break">Class VRAvatar
+  </h1>
+  <div class="markdown level0 summary"><p>A full, concrete implementation of <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatar.html">IVRAvatar</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">VRAvatar</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatar.html">IVRAvatar</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.rigidbody</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.rigidbody2D</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.camera</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.light</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.animation</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.constantForce</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.renderer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.audio</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.guiText</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.networkView</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.guiElement</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.guiTexture</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.collider</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.collider2D</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.hingeJoint</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.particleEmitter</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.particleSystem</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Liminal.SDK.VR.Avatars.html">Liminal.SDK.VR.Avatars</a></h6>
+  <h6><strong>Assembly</strong>: Liminal.SDK.dll</h6>
+  <h5 id="Liminal_SDK_VR_Avatars_VRAvatar_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DisallowMultipleComponent]
+[AddComponentMenu(&quot;VR/Avatar/Avatar Body&quot;)]
+public class VRAvatar : MonoBehaviour, IVRAvatar</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_Active.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.Active%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L33">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_Active_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Active*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_Active" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Active">Active</h4>
+  <div class="markdown level1 summary"><p>Gets the current active <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatar.html">IVRAvatar</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IVRAvatar Active { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatar.html">IVRAvatar</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_Auxiliaries.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.Auxiliaries%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L91">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_Auxiliaries_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Auxiliaries*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_Auxiliaries" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Auxiliaries">Auxiliaries</h4>
+  <div class="markdown level1 summary"><p>Gets the container for auxiliary systems.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Auxiliaries { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_Extensions.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.Extensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L148">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_Extensions_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Extensions*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_Extensions" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Extensions">Extensions</h4>
+  <div class="markdown level1 summary"><p>Gets the list of all extension assigned to the avatar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;IVRAvatarExtension&gt; Extensions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Liminal.SDK.VR.Avatars.Extensions.IVRAvatarExtension.html">IVRAvatarExtension</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_Hands.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.Hands%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L132">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_Hands_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Hands*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_Hands" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Hands">Hands</h4>
+  <div class="markdown level1 summary"><p>Gets a list of all hand limbs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;IVRAvatarHand&gt; Hands { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarHand.html">IVRAvatarHand</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_Head.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.Head%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L108">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_Head_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Head*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_Head" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Head">Head</h4>
+  <div class="markdown level1 summary"><p>Gets the Head limb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRAvatarHead Head { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarHead.html">IVRAvatarHead</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_IsActive.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.IsActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L75">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_IsActive_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.IsActive*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_IsActive" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.IsActive">IsActive</h4>
+  <div class="markdown level1 summary"><p>Indicates if the avatar is currently active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_Limbs.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.Limbs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L140">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_Limbs_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Limbs*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_Limbs" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Limbs">Limbs</h4>
+  <div class="markdown level1 summary"><p>Gets a list of all limbs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;IVRAvatarLimb&gt; Limbs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_LookForward.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.LookForward%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L170">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_LookForward_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.LookForward*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_LookForward" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.LookForward">LookForward</h4>
+  <div class="markdown level1 summary"><p>Gets the forward looking direction vector for the avatar. This is a shortcut to the head's active eye camera forward.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 LookForward { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_LookRotation.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.LookRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L185">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_LookRotation_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.LookRotation*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_LookRotation" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.LookRotation">LookRotation</h4>
+  <div class="markdown level1 summary"><p>Gets the looking rotation for the avatar. This is a shortcut to the head's active eye camera rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion LookRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_PrimaryHand.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.PrimaryHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L116">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_PrimaryHand_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.PrimaryHand*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_PrimaryHand" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.PrimaryHand">PrimaryHand</h4>
+  <div class="markdown level1 summary"><p>Gets the primary hand limb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRAvatarHand PrimaryHand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarHand.html">IVRAvatarHand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_ScreenFader.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.ScreenFader%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L156">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_ScreenFader_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.ScreenFader*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_ScreenFader" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.ScreenFader">ScreenFader</h4>
+  <div class="markdown level1 summary"><p>Gets the screen fader for the avatar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IScreenFader ScreenFader { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.Core.Fader.IScreenFader.html">IScreenFader</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_SecondaryHand.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.SecondaryHand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L124">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_SecondaryHand_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SecondaryHand*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_SecondaryHand" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SecondaryHand">SecondaryHand</h4>
+  <div class="markdown level1 summary"><p>Gets the secondary hand limb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRAvatarHand SecondaryHand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarHand.html">IVRAvatarHand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_Transform.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.Transform%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L83">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_Transform_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Transform*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_Transform" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.Transform">Transform</h4>
+  <div class="markdown level1 summary"><p>Gets the avatar's transform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform Transform { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_GetExtension_System_Type_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.GetExtension(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L444">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtension_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtension*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtension_System_Type_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtension(System.Type)">GetExtension(Type)</h4>
+  <div class="markdown level1 summary"><p>Get the first extension of the specified type, or null if no extension exists of this type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRAvatarExtension GetExtension(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the extension.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.Extensions.IVRAvatarExtension.html">IVRAvatarExtension</a></td>
+        <td><p>The extension of the specified type, or null if no extension exists of this type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_GetExtension__1.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.GetExtension%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L395">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtension_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtension*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtension__1" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtension``1">GetExtension&lt;TExtension&gt;()</h4>
+  <div class="markdown level1 summary"><p>Get the first extension of the specified type, or null if no extension exists of this type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TExtension GetExtension&lt;TExtension&gt;()
+    where TExtension : IVRAvatarExtension</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TExtension</span></td>
+        <td><p>The extension of the specified type, or null if no extension exists of this type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TExtension</span></td>
+        <td><p>The extension of the specified type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_GetExtensions_System_Type_System_Collections_Generic_IList_Liminal_SDK_VR_Avatars_Extensions_IVRAvatarExtension__.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.GetExtensions(System.Type%2CSystem.Collections.Generic.IList%7BLiminal.SDK.VR.Avatars.Extensions.IVRAvatarExtension%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L466">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtensions_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtensions*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtensions_System_Type_System_Collections_Generic_IList_Liminal_SDK_VR_Avatars_Extensions_IVRAvatarExtension__" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtensions(System.Type,System.Collections.Generic.IList{Liminal.SDK.VR.Avatars.Extensions.IVRAvatarExtension})">GetExtensions(Type, IList&lt;IVRAvatarExtension&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets all extensions of the specified type and places them into the supplied list and returns the number of objects that were added to the list.
+The list is cleared before any objects are added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetExtensions(Type type, IList&lt;IVRAvatarExtension&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the extensions to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Liminal.SDK.VR.Avatars.Extensions.IVRAvatarExtension.html">IVRAvatarExtension</a>&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p>The list to add the extensions to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of objects that were added to the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_GetExtensions__1_System_Collections_Generic_IList___0__.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.GetExtensions%60%601(System.Collections.Generic.IList%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L417">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtensions_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtensions*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_GetExtensions__1_System_Collections_Generic_IList___0__" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetExtensions``1(System.Collections.Generic.IList{``0})">GetExtensions&lt;TExtension&gt;(IList&lt;TExtension&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets all extensions of the specified type and places them into the supplied list and returns the number of objects that were added to the list.
+The list is cleared before any objects are added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetExtensions&lt;TExtension&gt;(IList&lt;TExtension&gt; list)
+    where TExtension : IVRAvatarExtension</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;TExtension&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p>The list to add the extensions to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of objects that were added to the list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TExtension</span></td>
+        <td><p>The type of the extensions to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_Liminal_SDK_VR_Avatars_VRAvatarLimbAlias_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.GetLimb(Liminal.SDK.VR.Avatars.VRAvatarLimbAlias)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L273">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetLimb*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_Liminal_SDK_VR_Avatars_VRAvatarLimbAlias_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetLimb(Liminal.SDK.VR.Avatars.VRAvatarLimbAlias)">GetLimb(VRAvatarLimbAlias)</h4>
+  <div class="markdown level1 summary"><p>Gets the limb for the specified <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbAlias.html">VRAvatarLimbAlias</a> alias.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRAvatarLimb GetLimb(VRAvatarLimbAlias alias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbAlias.html">VRAvatarLimbAlias</a></td>
+        <td><span class="parametername">alias</span></td>
+        <td><p>The limb alias.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a></td>
+        <td><p>The <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a> for the specified alias, or null if no limb is available for the supplied alias value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_Liminal_SDK_VR_Avatars_VRAvatarLimbType_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.GetLimb(Liminal.SDK.VR.Avatars.VRAvatarLimbType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L296">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetLimb*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_Liminal_SDK_VR_Avatars_VRAvatarLimbType_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetLimb(Liminal.SDK.VR.Avatars.VRAvatarLimbType)">GetLimb(VRAvatarLimbType)</h4>
+  <div class="markdown level1 summary"><p>Gets the first <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a> of the specified type attached to the avatar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRAvatarLimb GetLimb(VRAvatarLimbType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a> of the limb to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a></td>
+        <td><p>The first <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a> of the specified type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_Liminal_SDK_VR_IVRDeviceComponent_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.GetLimb(Liminal.SDK.VR.IVRDeviceComponent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L316">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetLimb*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_GetLimb_Liminal_SDK_VR_IVRDeviceComponent_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.GetLimb(Liminal.SDK.VR.IVRDeviceComponent)">GetLimb(IVRDeviceComponent)</h4>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a> assigned to the specified <a class="xref" href="Liminal.SDK.VR.IVRDeviceComponent.html">IVRDeviceComponent</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRAvatarLimb GetLimb(IVRDeviceComponent deviceComponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.IVRDeviceComponent.html">IVRDeviceComponent</a></td>
+        <td><span class="parametername">deviceComponent</span></td>
+        <td><p>The VR device component of the limb to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a></td>
+        <td><p>The <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a> assigned to the specified <a class="xref" href="Liminal.SDK.VR.IVRDeviceComponent.html">IVRDeviceComponent</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_HasLimb_Liminal_SDK_VR_Avatars_VRAvatarLimbType_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.HasLimb(Liminal.SDK.VR.Avatars.VRAvatarLimbType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L336">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_HasLimb_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.HasLimb*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_HasLimb_Liminal_SDK_VR_Avatars_VRAvatarLimbType_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.HasLimb(Liminal.SDK.VR.Avatars.VRAvatarLimbType)">HasLimb(VRAvatarLimbType)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the avatar has a <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a> of the specified <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a> type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasLimb(VRAvatarLimbType type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a> of the limb to search for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean indicating if the avatar has a <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatarLimb.html">IVRAvatarLimb</a> of the specified <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a> type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_InitializeExtensions.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.InitializeExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L256">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_InitializeExtensions_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.InitializeExtensions*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_InitializeExtensions" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.InitializeExtensions">InitializeExtensions()</h4>
+  <div class="markdown level1 summary"><p>Initializes all avatar extensions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitializeExtensions()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_SetActive_System_Boolean_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.SetActive(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L385">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_SetActive_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SetActive*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_SetActive_System_Boolean_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SetActive(System.Boolean)">SetActive(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the active state for the avatar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetActive(bool activeState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">activeState</span></td>
+        <td><p>The active state to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_SetHandsActiveState_System_Boolean_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.SetHandsActiveState(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L355">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_SetHandsActiveState_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SetHandsActiveState*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_SetHandsActiveState_System_Boolean_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SetHandsActiveState(System.Boolean)">SetHandsActiveState(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the active state for the hand limbs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHandsActiveState(bool activeState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">activeState</span></td>
+        <td><p>The active state for the hand limbs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_SetLimbActiveState_Liminal_SDK_VR_Avatars_VRAvatarLimbType_System_Boolean_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.SetLimbActiveState(Liminal.SDK.VR.Avatars.VRAvatarLimbType%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L369">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Avatars_VRAvatar_SetLimbActiveState_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SetLimbActiveState*"></a>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_SetLimbActiveState_Liminal_SDK_VR_Avatars_VRAvatarLimbType_System_Boolean_" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.SetLimbActiveState(Liminal.SDK.VR.Avatars.VRAvatarLimbType,System.Boolean)">SetLimbActiveState(VRAvatarLimbType, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the active state for all limbs of the specified <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLimbActiveState(VRAvatarLimbType limbType, bool activeState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a></td>
+        <td><span class="parametername">limbType</span></td>
+        <td><p>The <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarLimbType.html">VRAvatarLimbType</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">activeState</span></td>
+        <td><p>The active state for all limbs of the supplied type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar_AvatarChanged.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar.AvatarChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L51">View Source</a>
+  </span>
+  <h4 id="Liminal_SDK_VR_Avatars_VRAvatar_AvatarChanged" data-uid="Liminal.SDK.VR.Avatars.VRAvatar.AvatarChanged">AvatarChanged</h4>
+  <div class="markdown level1 summary"><p>Raised when the active avatar has changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event VRAvatarEventHandler AvatarChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarEventHandler.html">VRAvatarEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.IVRAvatar.html">IVRAvatar</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetLimb_Liminal_SDK_VR_Avatars_IVRAvatar_UnityEngine_EventSystems_PointerEventData_">VRAvatarExtensions.GetLimb(IVRAvatar, PointerEventData)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetLimb_Liminal_SDK_VR_Avatars_IVRAvatar_Liminal_SDK_VR_EventSystems_VRPointerEventData_">VRAvatarExtensions.GetLimb(IVRAvatar, VRPointerEventData)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetHand_Liminal_SDK_VR_Avatars_IVRAvatar_UnityEngine_EventSystems_PointerEventData_">VRAvatarExtensions.GetHand(IVRAvatar, PointerEventData)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetHand_Liminal_SDK_VR_Avatars_IVRAvatar_Liminal_SDK_VR_EventSystems_VRPointerEventData_">VRAvatarExtensions.GetHand(IVRAvatar, VRPointerEventData)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetHand_Liminal_SDK_VR_Avatars_IVRAvatar_Liminal_SDK_VR_Input_VRInputDeviceHand_">VRAvatarExtensions.GetHand(IVRAvatar, VRInputDeviceHand)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetHand_Liminal_SDK_VR_Avatars_IVRAvatar_Liminal_SDK_VR_IVRDeviceComponent_">VRAvatarExtensions.GetHand(IVRAvatar, IVRDeviceComponent)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_CreateAuxiliaryObject_Liminal_SDK_VR_Avatars_IVRAvatar_System_String_UnityEngine_HideFlags_">VRAvatarExtensions.CreateAuxiliaryObject(IVRAvatar, String, HideFlags)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetControllerVisual_Liminal_SDK_VR_Avatars_IVRAvatar_UnityEngine_EventSystems_PointerEventData_">VRAvatarExtensions.GetControllerVisual(IVRAvatar, PointerEventData)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetControllerVisual_Liminal_SDK_VR_Avatars_IVRAvatar_Liminal_SDK_VR_EventSystems_VRPointerEventData_">VRAvatarExtensions.GetControllerVisual(IVRAvatar, VRPointerEventData)</a>
+  </div>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Avatars.VRAvatarExtensions.html#Liminal_SDK_VR_Avatars_VRAvatarExtensions_GetControllerVisual_Liminal_SDK_VR_Avatars_IVRAvatar_Liminal_SDK_VR_Input_VRInputDeviceHand_">VRAvatarExtensions.GetControllerVisual(IVRAvatar, VRInputDeviceHand)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Avatars_VRAvatar.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Avatars.VRAvatar%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Avatars/VRAvatar.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

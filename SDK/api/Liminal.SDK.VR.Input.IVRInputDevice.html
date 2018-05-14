@@ -1,0 +1,682 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IVRInputDevice
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IVRInputDevice
+   ">
+    <meta name="generator" content="docfx 2.36.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Liminal.SDK.VR.Input.IVRInputDevice">
+  
+  
+  <h1 id="Liminal_SDK_VR_Input_IVRInputDevice" data-uid="Liminal.SDK.VR.Input.IVRInputDevice" class="text-break">Interface IVRInputDevice
+  </h1>
+  <div class="markdown level0 summary"><p>An interface that represents a hardware VR input device (such as a controller).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.IVRDeviceComponent.html#Liminal_SDK_VR_IVRDeviceComponent_Name">IVRDeviceComponent.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.IVRDeviceComponent.html#Liminal_SDK_VR_IVRDeviceComponent_Pointer">IVRDeviceComponent.Pointer</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Liminal.SDK.VR.Input.html">Liminal.SDK.VR.Input</a></h6>
+  <h6><strong>Assembly</strong>: Liminal.SDK.dll</h6>
+  <h5 id="Liminal_SDK_VR_Input_IVRInputDevice_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IVRInputDevice : IVRDeviceComponent</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_ButtonCount.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.ButtonCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L19">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_ButtonCount_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.ButtonCount*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_ButtonCount" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.ButtonCount">ButtonCount</h4>
+  <div class="markdown level1 summary"><p>Gets the number of buttons the device has.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ButtonCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_Hand.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.Hand%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L24">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_Hand_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.Hand*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_Hand" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.Hand">Hand</h4>
+  <div class="markdown level1 summary"><p>Gets the hand the device is assigned to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VRInputDeviceHand Hand { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Input.VRInputDeviceHand.html">VRInputDeviceHand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_Index.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.Index%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L14">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_Index_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.Index*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_Index" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.Index">Index</h4>
+  <div class="markdown level1 summary"><p>Gets the index of the input device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int Index { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_GetAxis1D_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.GetAxis1D(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L59">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_GetAxis1D_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetAxis1D*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_GetAxis1D_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetAxis1D(System.String)">GetAxis1D(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the current value of the specified 1-dimensional axis on the input device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetAxis1D(string axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">axis</span></td>
+        <td><p>The axis name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The current value of the axis on the input device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_GetAxis2D_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.GetAxis2D(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L66">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_GetAxis2D_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetAxis2D*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_GetAxis2D_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetAxis2D(System.String)">GetAxis2D(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the current value of the specified 2-dimensional axis on the input device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector2 GetAxis2D(string axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">axis</span></td>
+        <td><p>The axis name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>The current value of the axis on the input device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_GetButton_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.GetButton(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L73">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_GetButton_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetButton*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_GetButton_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetButton(System.String)">GetButton(String)</h4>
+  <div class="markdown level1 summary"><p>Returns true if the specified button is currently being held.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool GetButton(string button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">button</span></td>
+        <td><p>The button name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean indicating if the specified button is currently being held.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_GetButtonDown_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.GetButtonDown(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L80">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_GetButtonDown_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetButtonDown*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_GetButtonDown_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetButtonDown(System.String)">GetButtonDown(String)</h4>
+  <div class="markdown level1 summary"><p>Returns true if the specified button was pressed on this frame. This value is true only for the single frame when the button was initially pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool GetButtonDown(string button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">button</span></td>
+        <td><p>The button name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean indicating if the specified button was pressed this frame.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_GetButtonUp_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.GetButtonUp(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L87">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_GetButtonUp_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetButtonUp*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_GetButtonUp_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.GetButtonUp(System.String)">GetButtonUp(String)</h4>
+  <div class="markdown level1 summary"><p>Returns true if the specified button was released on this frame. This value is true only for the single frame when the button was released.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool GetButtonUp(string button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">button</span></td>
+        <td><p>The button name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean indicating if the specified button was released this frame.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_HasAxis1D_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.HasAxis1D(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L38">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_HasAxis1D_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasAxis1D*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_HasAxis1D_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasAxis1D(System.String)">HasAxis1D(String)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the input device has a 1-dimensional axis with the specified name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasAxis1D(string axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">axis</span></td>
+        <td><p>The axis name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean value indicating if the a 1-dimensional axis with the specified name exists on the input device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_HasAxis2D_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.HasAxis2D(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L45">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_HasAxis2D_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasAxis2D*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_HasAxis2D_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasAxis2D(System.String)">HasAxis2D(String)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the input device has a 2-dimensional axis with the specified name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasAxis2D(string axis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">axis</span></td>
+        <td><p>The axis name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean value indicating if the a 2-dimensional axis with the specified name exists on the input device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_HasButton_System_String_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.HasButton(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L52">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_HasButton_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasButton*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_HasButton_System_String_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasButton(System.String)">HasButton(String)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the input device has a button with the specified name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasButton(string button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">button</span></td>
+        <td><p>The button name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean value indicating if the a button with the specified name exists on the input device.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice_HasCapabilities_Liminal_SDK_VR_VRInputDeviceCapability_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice.HasCapabilities(Liminal.SDK.VR.VRInputDeviceCapability)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L31">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Input_IVRInputDevice_HasCapabilities_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasCapabilities*"></a>
+  <h4 id="Liminal_SDK_VR_Input_IVRInputDevice_HasCapabilities_Liminal_SDK_VR_VRInputDeviceCapability_" data-uid="Liminal.SDK.VR.Input.IVRInputDevice.HasCapabilities(Liminal.SDK.VR.VRInputDeviceCapability)">HasCapabilities(VRInputDeviceCapability)</h4>
+  <div class="markdown level1 summary"><p>Indicates if the input device has a specific set of capabilities. This method returns true only if ALL values within the <code data-dev-comment-type="paramref" class="paramref">capabilities</code> bitmask are available on the input device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasCapabilities(VRInputDeviceCapability capabilities)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.VRInputDeviceCapability.html">VRInputDeviceCapability</a></td>
+        <td><span class="parametername">capabilities</span></td>
+        <td><p>The capabilities to check. This value is a bitmask of <a class="xref" href="Liminal.SDK.VR.VRInputDeviceCapability.html">VRInputDeviceCapability</a> values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean indicating if the input device has ALL the capabilities specified by the <code data-dev-comment-type="paramref" class="paramref">capabilities</code> bitmask.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Input_IVRInputDevice.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Input.IVRInputDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Input/IVRInputDevice.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

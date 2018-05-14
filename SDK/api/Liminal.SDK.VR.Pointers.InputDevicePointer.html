@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class InputDevicePointer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class InputDevicePointer
+   ">
+    <meta name="generator" content="docfx 2.36.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer">
+  
+  
+  <h1 id="Liminal_SDK_VR_Pointers_InputDevicePointer" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer" class="text-break">Class InputDevicePointer
+  </h1>
+  <div class="markdown level0 summary"><p>A concrete implementation of <a class="xref" href="Liminal.SDK.VR.Pointers.IVRPointer.html">IVRPointer</a> designed for use with <a class="xref" href="Liminal.SDK.VR.Input.IVRInputDevice.html">IVRInputDevice</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html">BasePointer</a></div>
+    <div class="level2"><span class="xref">InputDevicePointer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Liminal.SDK.VR.Pointers.IVRPointer.html">IVRPointer</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_IsActive">BasePointer.IsActive</a>
+    </div>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_DeviceComponent">BasePointer.DeviceComponent</a>
+    </div>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_CurrentRaycastResult">BasePointer.CurrentRaycastResult</a>
+    </div>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_Transform">BasePointer.Transform</a>
+    </div>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_ActiveStateChanged">BasePointer.ActiveStateChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_Activate">BasePointer.Activate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_Deactivate">BasePointer.Deactivate()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Liminal.SDK.VR.Pointers.html">Liminal.SDK.VR.Pointers</a></h6>
+  <h6><strong>Assembly</strong>: Liminal.SDK.dll</h6>
+  <h5 id="Liminal_SDK_VR_Pointers_InputDevicePointer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InputDevicePointer : BasePointer, IVRPointer</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Pointers_InputDevicePointer__ctor_Liminal_SDK_VR_Input_IVRInputDevice_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Pointers.InputDevicePointer.%23ctor(Liminal.SDK.VR.Input.IVRInputDevice)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Pointers/InputDevicePointer.cs/#L30">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Pointers_InputDevicePointer__ctor_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.#ctor*"></a>
+  <h4 id="Liminal_SDK_VR_Pointers_InputDevicePointer__ctor_Liminal_SDK_VR_Input_IVRInputDevice_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.#ctor(Liminal.SDK.VR.Input.IVRInputDevice)">InputDevicePointer(IVRInputDevice)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputDevicePointer(IVRInputDevice inputDevice)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Input.IVRInputDevice.html">IVRInputDevice</a></td>
+        <td><span class="parametername">inputDevice</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Pointers_InputDevicePointer_InputDevice.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Pointers.InputDevicePointer.InputDevice%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Pointers/InputDevicePointer.cs/#L23">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Pointers_InputDevicePointer_InputDevice_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.InputDevice*"></a>
+  <h4 id="Liminal_SDK_VR_Pointers_InputDevicePointer_InputDevice" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.InputDevice">InputDevice</h4>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Liminal.SDK.VR.Input.IVRInputDevice.html">IVRInputDevice</a> the pointer is bound to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IVRInputDevice InputDevice { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Liminal.SDK.VR.Input.IVRInputDevice.html">IVRInputDevice</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Pointers_InputDevicePointer_GetButtonDown.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Pointers.InputDevicePointer.GetButtonDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Pointers/InputDevicePointer.cs/#L57">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Pointers_InputDevicePointer_GetButtonDown_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.GetButtonDown*"></a>
+  <h4 id="Liminal_SDK_VR_Pointers_InputDevicePointer_GetButtonDown" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.GetButtonDown">GetButtonDown()</h4>
+  <div class="markdown level1 summary"><p>[Internal use] Indicates if the primary interaction button was pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetButtonDown()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean indicating if the primary interaction button was pressed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_GetButtonDown">BasePointer.GetButtonDown()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Pointers_InputDevicePointer_GetButtonUp.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Pointers.InputDevicePointer.GetButtonUp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Pointers/InputDevicePointer.cs/#L66">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Pointers_InputDevicePointer_GetButtonUp_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.GetButtonUp*"></a>
+  <h4 id="Liminal_SDK_VR_Pointers_InputDevicePointer_GetButtonUp" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.GetButtonUp">GetButtonUp()</h4>
+  <div class="markdown level1 summary"><p>[Internal use] Indicates if the primary interaction button was released.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool GetButtonUp()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>A boolean indicating if the primary interaction button was released.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_GetButtonUp">BasePointer.GetButtonUp()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Pointers_InputDevicePointer_OnPointerEnter_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Pointers.InputDevicePointer.OnPointerEnter(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Pointers/InputDevicePointer.cs/#L39">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Pointers_InputDevicePointer_OnPointerEnter_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.OnPointerEnter*"></a>
+  <h4 id="Liminal_SDK_VR_Pointers_InputDevicePointer_OnPointerEnter_UnityEngine_GameObject_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.OnPointerEnter(UnityEngine.GameObject)">OnPointerEnter(GameObject)</h4>
+  <div class="markdown level1 summary"><p>[Internal use] Executed when the pointer hovers over an interactable GameObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnPointerEnter(GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The GameObject the pointer the pointer entered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_OnPointerEnter_UnityEngine_GameObject_">BasePointer.OnPointerEnter(GameObject)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Pointers_InputDevicePointer_OnPointerExit_UnityEngine_GameObject_.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Pointers.InputDevicePointer.OnPointerExit(UnityEngine.GameObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Pointers/InputDevicePointer.cs/#L48">View Source</a>
+  </span>
+  <a id="Liminal_SDK_VR_Pointers_InputDevicePointer_OnPointerExit_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.OnPointerExit*"></a>
+  <h4 id="Liminal_SDK_VR_Pointers_InputDevicePointer_OnPointerExit_UnityEngine_GameObject_" data-uid="Liminal.SDK.VR.Pointers.InputDevicePointer.OnPointerExit(UnityEngine.GameObject)">OnPointerExit(GameObject)</h4>
+  <div class="markdown level1 summary"><p>[Internal use] Executed when the pointer leaves an interactable GameObject after <a class="xref" href="Liminal.SDK.VR.Pointers.InputDevicePointer.html#Liminal_SDK_VR_Pointers_InputDevicePointer_OnPointerEnter_UnityEngine_GameObject_">OnPointerEnter(GameObject)</a> has been executed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnPointerExit(GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The GameObject the pointer the pointer exited.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Liminal.SDK.VR.Pointers.BasePointer.html#Liminal_SDK_VR_Pointers_BasePointer_OnPointerExit_UnityEngine_GameObject_">BasePointer.OnPointerExit(GameObject)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Liminal.SDK.VR.Pointers.IVRPointer.html">IVRPointer</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/new/master/apiSpec/new?filename=Liminal_SDK_VR_Pointers_InputDevicePointer.md&amp;value=---%0Auid%3A%20Liminal.SDK.VR.Pointers.InputDevicePointer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/LiminalVR/LiminalPlatformSDK/blob/master/Liminal.SDK/Liminal.SDK/VR/Pointers/InputDevicePointer.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
